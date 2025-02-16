@@ -1,0 +1,17 @@
+.btns_container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .btn {
+        color: #695aa6;
+        background: white;
+        border: 1px solid #695aa6;
+        border-radius: 10px;
+
+        &.active {
+            background: #695aa6;
+            color: white;
+        }
+    }
+}

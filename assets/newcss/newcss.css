@@ -1,0 +1,155 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+body h1,
+body h2,
+body h3,
+body h4 {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+body.single .header .container {
+  margin-top: 150px;
+}
+body.single .header .image_container {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+}
+body.single .header .image_container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+body.single .header h1 {
+  text-align: center;
+  font-size: 60px;
+}
+body.single p {
+  font-size: 18px;
+}
+body.single p span {
+  font-weight: 700;
+}
+body.single .galerie {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+body.single .galerie .image_container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body.single .about-caption .image_container {
+  max-width: 50%;
+}
+body.single .about-caption .image_container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#content {
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#content h1,
+#content h2,
+#content h3 {
+  color: #333;
+}
+#content p {
+  line-height: 1.6;
+  color: #555;
+}
+#content pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+#content .code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.btns_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.btns_container .btn {
+  color: #695aa6;
+  background: white;
+  border: 1px solid #695aa6;
+  border-radius: 10px;
+}
+.btns_container .btn.active {
+  background: #695aa6;
+  color: white;
+}
+
+.experience,
+.scolaire {
+  display: none;
+}
+.experience.active,
+.scolaire.active {
+  display: block;
+}
+.experience h4,
+.scolaire h4 {
+  font-size: 36.5px;
+  font-weight: 700;
+}
+.experience p,
+.scolaire p {
+  font-size: 18px;
+}
+.experience p.head,
+.scolaire p.head {
+  font-size: 20px;
+}
+.experience ul.timeline,
+.scolaire ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+.experience ul.timeline::before,
+.scolaire ul.timeline::before {
+  content: "";
+  background: rgb(105, 90, 166);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+}
+.experience ul.timeline > li,
+.scolaire ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.experience ul.timeline > li::before,
+.scolaire ul.timeline > li::before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid #695aa6;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  z-index: 400;
+}/*# sourceMappingURL=newcss.css.map */
